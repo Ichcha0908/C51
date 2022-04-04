@@ -1,0 +1,37 @@
+*{
+    background-image: url(bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: rgb(255, 255, 0)
+}
+.games{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+}
+.reachMeAt{
+    display: flex;
+    justify-content: flex-end;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid transparent;
+    border-image: url(border.png) 20% round;
+}
+.subheading{
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: aliceblue;
+}
